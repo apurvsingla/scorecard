@@ -1,0 +1,19 @@
+/* html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    --cotetriangle: 200px;
+    --translationDistance: 57px;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background: rgb(36, 36, 33);
+} */

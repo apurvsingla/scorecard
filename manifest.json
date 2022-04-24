@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "ScoreCard",
+    "version": "1.0.0",
+    "description": "Get cricket updates instantly",
+    "short_name": "Score Card",
+    "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "css": ["style.css"],
+        "js": ["scoreboard.js"]
+      }
+    ],
+    "browser_action": {
+      "default_title": "Does a thing when you do a thing",
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/score.png",
+        "32": "images/score.png"
+      }
+    }
+   }
